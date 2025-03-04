@@ -23,8 +23,9 @@ cd drfsimplecrud
 
 ### 2️⃣ Crear un entorno virtual
 
-python -m venv env
-source env/bin/activate  # En Windows: env\Scripts\activate 
+-python -m venv env
+-source env/bin/activate  
+-# En Windows: env\Scripts\activate 
 
 ### 3️⃣ Instalar dependencias
 
