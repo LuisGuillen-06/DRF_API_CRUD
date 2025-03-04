@@ -39,6 +39,10 @@ El proyecto usa SQLite por defecto, pero si deseas cambiar a PostgreSQL, edita l
 #### python manage.py migrate
 #### python manage.py runserver
 
+## 🌍 API Desplegada en Render
+#### Puedes acceder a la API en producción a través del siguiente enlace:
+#### https://drf-api-crud-9f50.onrender.com/
+
 ## 🔥 Endpoints
 
 #### Método	URL	Descripción
