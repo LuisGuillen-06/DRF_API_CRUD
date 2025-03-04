@@ -20,10 +20,3 @@ Permite realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) sobre una
 ```bash
 git clone https://github.com/tu-usuario/drfsimplecrud.git
 cd drfsimplecrud
-
-### 2️⃣ Crear un entorno virtual
-```bash
-python -m venv env
-source env/bin/activate  # En Windows: env\Scripts\activate
-
-
