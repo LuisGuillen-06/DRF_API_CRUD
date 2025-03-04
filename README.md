@@ -23,9 +23,9 @@ cd drfsimplecrud
 
 ### 2️⃣ Crear un entorno virtual
 
--python -m venv env
--source env/bin/activate  
--# En Windows: env\Scripts\activate 
+#### python -m venv env
+#### source env/bin/activate  
+#### En Windows: env\Scripts\activate 
 
 ### 3️⃣ Instalar dependencias
 
@@ -36,8 +36,8 @@ El proyecto usa SQLite por defecto, pero si deseas cambiar a PostgreSQL, edita l
 
 ### 5️⃣ Aplicar migraciones y ejecutar el servidor
 
-python manage.py migrate
-python manage.py runserver
+#### python manage.py migrate
+#### python manage.py runserver
 
 ## 🔥 Endpoints
 
