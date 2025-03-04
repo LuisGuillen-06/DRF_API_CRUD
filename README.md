@@ -40,12 +40,12 @@ python manage.py runserver
 
 ## 🔥 Endpoints
 
-Método	URL	Descripción
-GET	/api/projects/	Listar proyectos
-POST	/api/projects/	Crear un proyecto
-GET	/api/projects/{id}/	Obtener un proyecto
-PUT	/api/projects/{id}/	Actualizar un proyecto
-DELETE	/api/projects/{id}/	Eliminar un proyecto
+#### Método	URL	Descripción
+#### GET	/api/projects/	Listar proyectos
+#### POST	/api/projects/	Crear un proyecto
+#### GET	/api/projects/{id}/	Obtener un proyecto
+#### PUT	/api/projects/{id}/	Actualizar un proyecto
+#### DELETE	/api/projects/{id}/	Eliminar un proyecto
 
 ## 🛠 Tecnologías usadas
 
