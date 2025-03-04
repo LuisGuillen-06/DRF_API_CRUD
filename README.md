@@ -17,24 +17,24 @@ Permite realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) sobre una
 ## 🚀 Instalación y Configuración  
 
 ### 1️⃣ Clonar el repositorio  
-``bash
+
 git clone https://github.com/tu-usuario/drfsimplecrud.git
 cd drfsimplecrud
 
 ### 2️⃣ Crear un entorno virtual
-`` bash
+
 python -m venv env
 source env/bin/activate  # En Windows: env\Scripts\activate 
 
 ### 3️⃣ Instalar dependencias
-`` bash
+
 pip install -r requirements.txt
 
 #### 4️⃣ Configurar la base de datos
 El proyecto usa SQLite por defecto, pero si deseas cambiar a PostgreSQL, edita la configuración DATABASES en settings.py.
 
 ### 5️⃣ Aplicar migraciones y ejecutar el servidor
-`` bash
+
 python manage.py migrate
 python manage.py runserver
 
