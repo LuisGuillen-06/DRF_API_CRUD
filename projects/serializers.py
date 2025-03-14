@@ -6,4 +6,10 @@ class ProjectSerializer(serializers.ModelSerializer):
         model = Project
         fields = ('id','title','description','technology','created_at')
         read_only_fields = ('created_at', )
+    
+    def validate_title(self, value):
+        if Project.objects.filter(title=value).exists():
+            raise serializers.ValidationError("Ya existe un proyecto con este titulo.")
+        
+        return value
 
